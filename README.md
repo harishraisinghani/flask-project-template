@@ -29,9 +29,14 @@ HTML template files include:
 
 ## Setup
 
-1. Fork this repo from GitHub and clone it locally
-1. Setup your Python virtual environment with: `python -m venv venv`
-1. Install the project template's Python dependencies with: `pip install -r requirements.txt`
+1. Download the repo zip file locally (or use `git clone` with the HTTPS URL), extract it, and name the root folder your project name
+2. Open the project folder with your code editor
+3. Initialize Git with `git init`
+4. Setup your Python virtual environment with: `python -m venv venv`
+5. Activate your virtual environment with:
+  * `venv/Scripts/activate` in Powershell
+  * `source venv/bin/activate` in Terminal
+6. Install the project template's Python dependencies with: `pip install -r requirements.txt`
 
 ## Run App
 Run the app with `python app.py`. By default, the Flask server runs on `127.0.0.1:5000/`

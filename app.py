@@ -13,6 +13,5 @@ def another_page():
     return render_template('another_page.html')
 
 
-
 if __name__ == '__main__':
     app.run(debug=True)
