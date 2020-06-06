@@ -16,6 +16,7 @@ This project template uses Flask and Flask-Bootstrap and comes with the followin
 
 - requirements.txt
 - app.py
+- Procfile
 - README.md
 ```
 
@@ -34,3 +35,5 @@ HTML template files include:
 
 ## Run App
 Run the app with `python app.py`. By default, the Flask server runs on `127.0.0.1:5000/`
+
+A `Procfile` is also provided if you would like to deploy your app to a production grade server using **Heroku**. See https://devcenter.heroku.com/articles/getting-started-with-python#set-up
